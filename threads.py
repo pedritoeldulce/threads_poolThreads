@@ -53,3 +53,7 @@ print(f"Tiempo transcurrido: {tiempo_fin.second - tiempo_ini.second}" )
 6
 7
 Tiempo transcurrido: 7 """
+
+# Se observa que se ejecutan de manera simultanea() ambas funciones, tiempo:7; es el tiempo mayor de procesamiento, el otro se ejecuta dentro de esto
+
+# si trabajamos con muchos hilos, estos requieren que mnuchos recursos, en ese caso es mejor tratarlos con poolthreads 
